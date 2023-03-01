@@ -19,9 +19,16 @@
         .font-bold{
             font-weight: 700;
         }
+        .position-products{
+            position: absolute;
+            left: 15%;
+            right: 15%;
+            padding-top: 0.2em;
+        }
     </style>
     <body>
         
+        <!-- navbar / top bar -->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">AceCAR</a>
@@ -59,6 +66,7 @@
             </div>
         </nav>
 
+        <!-- cover / image info -->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -98,33 +106,66 @@
                             </div>
                         </div>
                         <div class="col-lg-12 text-white pe-3">
-                                <div class="row">
-                                    <div class="col-lg-3">
-                                        <h5>10+ orase</h5>
-                                        <p>Peste 10 locatii de unde se pot inchiria</p>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <h5>Premium si Sport</h5>
-                                        <p>Detinem un numar mare de masini premium si sport.</p>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <h5>Masini noi</h5>
-                                        <p>Avem o gama variata de masini noi</p>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <h5>Totul digital</h5>
-                                        <p>Iti facem viata mai usoara prin digitalizare.</p>
-                                    </div>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <h5>10+ orase</h5>
+                                    <p>Peste 10 locatii de unde se pot inchiria</p>
+                                </div>
+                                <div class="col-lg-3">
+                                    <h5>Premium si Sport</h5>
+                                    <p>Detinem un numar mare de masini premium si sport.</p>
+                                </div>
+                                <div class="col-lg-3">
+                                    <h5>Masini noi</h5>
+                                    <p>Avem o gama variata de masini noi</p>
+                                </div>
+                                <div class="col-lg-3">
+                                    <h5>Totul digital</h5>
+                                    <p>Iti facem viata mai usoara prin digitalizare.</p>
                                 </div>
                             </div>
-                          </div>
+                        </div>
                     </div>
                 </div>
-          </div>
+            </div>
+        </div>
 
-
-
-
+        <!-- products -->
+        <div class="text-dark text-center fs-2 font-bold pt-4">
+            SIXT car rental deals and products
+        </div>
+        <div class="row position-products pt-4">
+            <div class="col-lg-4">
+                <div class="card" style="border: none;">
+                    <img src="images/car1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="border: none;">
+                    <img src="images/car1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="border: none;">
+                    <img src="images/car1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script>
             feather.replace()
